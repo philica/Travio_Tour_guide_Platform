@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hotel booking</title>
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+  />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <div class="main-page">
+    <a href="/index.html">
+      <i class="fa fa-home"></i>
+      MAIN PAGE
+    </a>
+  </div>
+    <!-- start hotel box -->
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>B</span>
+            <span>o</span>
+             <span>o</span>
+             <span>k</span>
+             <span class="space"></span>
+                <span>H</span> 
+                <span>O</span>
+                <span>T</span>
+                <span>I</span>
+                <span>l</span>
+        </h1>
+        <div class="entry">
+          <p>
+            Lorem ipsum dolor sit amet consectetur,         elit. Sit fuga consectetur aliquam hic sed incidunt deserunt   provident perspiciatis laudantium, libero, minima amet rerum, exercitationem eum iste dolor porro saepe.
+          </p>
+          </div>
+        
+        <div class="row">
+          <div class="image">
+            <img src="images/book-img.jpg" alt="" />
+          </div>
+          //booking form 
+          <form action="/book_hotel" method="post">
+            <div class="inputBox">
+              <h3>Name of the Hotel</h3>
+              <input type="text" placeholder="place name" name="Hotel_name" />
+            </div>
+            <div class="inputBox">
+              <h3>Type of hotel room</h3>
+              <input type="text" placeholder="place name" name="Hotel_type"/>
+            </div>
+            
+            <div class="inputBox">
+              <h3>how many</h3>
+              <input type="number" placeholder="number of guests" name="Quantity"/>
+            </div>
+            <div class="inputBox">
+              <h3>arrivals date</h3>
+              <input type="date" name="Start_date"/>
+            </div>
+            <div class="inputBox">
+              <h3>depoarcher date</h3>
+              <input type="date" name="End_date"/>
+            </div>
+            <input type="submit" class="btn" value="book now" />
+           
+           
+            <a class="btn" href="./info.html" >
+              need Information
+            </a>
+             
+          </form>
+    
+        </div>
+      </section>
+      <!-- booking endes  -->
+    
+
+   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="/js/script.js"></script>  
+</body>
+</html>
+
+
+
